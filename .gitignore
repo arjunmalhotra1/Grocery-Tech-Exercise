@@ -1,0 +1,6 @@
+# VSCODE
+.vscode
+
+# API Test
+__pycache__/
+.pytest_cache/

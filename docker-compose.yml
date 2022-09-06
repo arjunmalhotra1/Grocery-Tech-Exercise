@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  store-api:
+    container_name: store
+    build: ./
+    command: go run ./cmd/Grocery-Tech-Exercise/main.go
+    ports:
+      - "8086:8086"
+
+
